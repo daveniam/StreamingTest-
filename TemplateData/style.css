@@ -23,22 +23,24 @@ body, html{
 }
 
 #gameContainer canvas{
-	display: background;
     position:absolute;
     transform:translate(-50%, -50%);
     top:50%;
     left:50%;
+
 }
 
 #SamplePlayerDivID{
 	display:block;
 	position:absolute;
+	
 }
+
 #iframe1{
 	display:block;
-	transform:translate(10%, 95%);
-    top:-10px;
-    left:10px;
+	position:float;
+	transform:translate(0%,90%);
+	right:0%;
 }
 
 .simmer{
